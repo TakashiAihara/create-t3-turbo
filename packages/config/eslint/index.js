@@ -2,6 +2,7 @@
 const config = {
   extends: [
     "next",
+    "next/core-web-vitals",
     "turbo",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
@@ -25,6 +26,8 @@ const config = {
   },
   ignorePatterns: ["**/*.config.js", "**/*.config.cjs", "packages/config/**"],
   reportUnusedDisableDirectives: true,
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
 };
 
 module.exports = config;

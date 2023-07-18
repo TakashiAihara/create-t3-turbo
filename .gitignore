@@ -9,8 +9,8 @@ node_modules
 coverage
 
 # database
-prisma/db.sqlite
-prisma/db.sqlite-journal
+**/prisma/db.sqlite
+**/prisma/db.sqlite-journal
 
 # next.js
 .next/
@@ -46,3 +46,8 @@ yarn-error.log*
 
 # turbo
 .turbo
+
+# playwright
+test-results/
+playwright-report/
+playwright/.cache/

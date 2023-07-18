@@ -17,5 +17,14 @@
     "incremental": true,
     "noUncheckedIndexedAccess": true
   },
-  "include": [".eslintrc.js", "prettier.config.cjs"]
+  "include": [
+    ".eslintrc.cjs",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.cjs",
+    "**/*.mjs",
+    "prettier.config.cjs"
+  ],
+  "exclude": ["node_modules"]
 }
